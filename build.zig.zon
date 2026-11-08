@@ -1,0 +1,17 @@
+.{
+    .name = .gomoku,
+    .version = "0.0.0",
+    .fingerprint = 0x93f0eac1ba1c4f1c,
+    .minimum_zig_version = "0.17.1",
+    .dependencies = .{
+        .vaxis = .{
+            .url = "git+https://github.com/rockorager/libvaxis.git#c1861acc835e42d6874f2b15744f472398fbdfb7",
+            .hash = "vaxis-0.6.0-BWNV_GQaDQAz9DPyb2245fA-MbFe1MtOMwVQ08z9-v50",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
